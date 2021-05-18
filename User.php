@@ -91,7 +91,7 @@ class User
     }
 
     public function setCreditCards($creditCard) {
-        array_push($this->cart, $creditCard);
+        array_push($this->creditCards, $creditCard);
     }
 
     public function addToCart($product, $qty) {
